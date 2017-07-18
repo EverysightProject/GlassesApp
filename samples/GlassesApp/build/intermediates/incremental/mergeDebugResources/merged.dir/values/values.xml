@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="string" name="fontPath"/>
+    <item name="evsDarkGray" type="color">#1e1e1e</item>
+    <item name="evsGray" type="color">#7e7e7e</item>
+    <item name="evsGray1" type="color">#5e5e5e</item>
+    <item name="evsGreen" type="color">#89D211</item>
+    <item name="evsWhite" type="color">#d2d2d2</item>
+    <color name="evs_background">#000000</color>
+    <color name="gradient_end">#6DB34F</color>
+    <color name="gradient_start">#AFD138</color>
+    <declare-styleable name="ArcWidget"><attr format="dimension" name="arcRadius"/><attr format="dimension" name="arcTop"/><attr format="dimension" name="knobTop"/><attr format="dimension" name="knobThickness"/><attr format="dimension" name="arcThickness"/><attr format="dimension" name="knobPadding"/><attr format="integer" name="arcMinValue"/><attr format="integer" name="arcMaxValue"/><attr format="integer" name="arcValue"/><attr format="reference|color" name="knobColor"/></declare-styleable>
+    <declare-styleable name="WorkoutGraph"><attr format="dimension" name="graphStrokeWidth"/><attr format="dimension" name="graphBarPadding"/><attr format="dimension" name="graphBarMargin"/><attr format="dimension" name="graphBarHeight"/><attr format="dimension" name="graphCenterLineStrokeWidth"/><attr format="dimension" name="graphMinStepWidth"/><attr format="reference|color" name="graphStrokeColor"/><attr format="reference|color" name="zone1"/><attr format="reference|color" name="zone2"/><attr format="reference|color" name="zone3"/><attr format="reference|color" name="zone4"/><attr format="reference|color" name="zone5"/><attr format="reference|color" name="graphCenterLineColor"/><attr format="integer" name="graphValue"/><attr format="integer" name="graphVisibleRange"/><attr format="boolean" name="drawPacman"/><attr format="boolean" name="graphTextVisible"/><attr format="boolean" name="graphDrawAxis"/><attr format="enum" name="graphStyle"><enum name="bar" value="0"/><enum name="stroke" value="1"/><enum name="stroke_with_bar" value="2"/><enum name="stroke_with_fill_bar" value="3"/></attr><attr format="dimension" name="graphDashGap"/><attr format="reference|color" name="graphGradientBarColor"/></declare-styleable>
+    <dimen name="base_activity_layout_height">1200px</dimen>
+    <dimen name="base_activity_layout_width">1200px</dimen>
+    <dimen name="button_height_width">40dp</dimen>
+    <dimen name="camera_popup_content_layout_app_icon_height">@dimen/system_popup_layout_content_app_icon_and_title_container_height</dimen>
+    <dimen name="camera_popup_content_layout_app_icon_width">@dimen/system_popup_layout_content_app_icon_and_title_container_height</dimen>
+    <dimen name="camera_popup_layout_content_app_icon_margin_right">18px</dimen>
+    <dimen name="camera_popup_layout_content_image_taken_height">@dimen/system_popup_layout_height</dimen>
+    <dimen name="camera_popup_layout_content_image_taken_time_text_size">25px</dimen>
+    <dimen name="camera_popup_layout_content_image_taken_time_width">100px</dimen>
+    <dimen name="camera_popup_layout_content_image_taken_width">178px</dimen>
+    <dimen name="camera_popup_layout_content_title_height">70px</dimen>
+    <dimen name="camera_popup_layout_content_title_margin_right">68px</dimen>
+    <dimen name="camera_popup_layout_content_title_text_size">35px</dimen>
+    <dimen name="camera_popup_layout_content_title_width">129px</dimen>
+    <dimen name="system_popup_container_layout_height">122px</dimen>
+    <dimen name="system_popup_container_layout_width">640px</dimen>
+    <dimen name="system_popup_layout_action_icon_large_size">58px</dimen>
+    <dimen name="system_popup_layout_action_icon_small_size">45px</dimen>
+    <dimen name="system_popup_layout_action_more_actions_indicator_size">24px</dimen>
+    <dimen name="system_popup_layout_action_text_height">37px</dimen>
+    <dimen name="system_popup_layout_action_text_size">14px</dimen>
+    <dimen name="system_popup_layout_action_text_width">@dimen/system_popup_layout_action_icon_large_size</dimen>
+    <dimen name="system_popup_layout_actions_holder_width">108px</dimen>
+    <dimen name="system_popup_layout_content_app_icon_and_title_container_height">45px</dimen>
+    <dimen name="system_popup_layout_content_app_icon_and_title_container_width">300px</dimen>
+    <dimen name="system_popup_layout_content_app_icon_height">@dimen/system_popup_layout_content_app_icon_and_title_container_height</dimen>
+    <dimen name="system_popup_layout_content_app_icon_margin_right">18px</dimen>
+    <dimen name="system_popup_layout_content_app_icon_width">@dimen/system_popup_layout_content_app_icon_and_title_container_height</dimen>
+    <dimen name="system_popup_layout_content_message_height">72px</dimen>
+    <dimen name="system_popup_layout_content_message_margin_top">5px</dimen>
+    <dimen name="system_popup_layout_content_message_text_size">35px</dimen>
+    <dimen name="system_popup_layout_content_title_height">@dimen/system_popup_layout_content_app_icon_and_title_container_height</dimen>
+    <dimen name="system_popup_layout_content_title_text_size">35px</dimen>
+    <dimen name="system_popup_layout_content_width">442px</dimen>
+    <dimen name="system_popup_layout_height">100px</dimen>
+    <dimen name="system_popup_layout_horizontal_padding">45px</dimen>
+    <item name="EvsReduceLayout_Id" type="id"/>
+    <string name="app_name">Activity Example</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

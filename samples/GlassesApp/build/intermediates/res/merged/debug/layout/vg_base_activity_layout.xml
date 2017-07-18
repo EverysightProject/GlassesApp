@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/simulatorkeyslayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/vgbase_content_holder"
+        android:layout_width="640px"
+        android:layout_height="480px"
+        android:background="@android:color/transparent">
+        <TextView
+            android:id="@+id/screenPosLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center"
+            android:background="@drawable/border_debug"
+            android:textColor="#A3FF00"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:padding="4px"
+            android:text="X:?? Y:?? Z:??"/>
+        <FrameLayout
+            android:id="@+id/carouselHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent">
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/widgets_space"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+
+-optimizations !code/simplification/cast,!field/*,!class/merging/*,!code/allocation/variable
+-optimizationpasses 5
+-allowaccessmodification
+-dontpreverify
+-dontobfuscate
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-keepattributes *Annotation*
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.billing.IInAppBillingService
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+-keepclassmembers class * extends android.content.Context {
+    public void *(android.view.View);
+    public void *(android.view.MenuItem);
+}
+
+-keep class com.everysight.speechrecognitionlib.** { *; }
+-keepclassmembers class * {
+    public static <methods>;
+}
+
+-keep class com.everysight.library.events.** { *; }
+-keepclassmembers class com.everysight.library.events.** {
+    public enum *;
+}
+-keep public enum com.everysight.library.events.**$** {
+    **[] $VALUES;
+    public *;
+}
+
+-keep class org.xmlpull.** { *; }
+
+-dontwarn com.opencsv.**
+-dontwarn android.support.**
+-dontwarn com.kitfox.svg.**
+-dontwarn java.awt.**
+-dontwarn com.caverock.androidsvg.**
+-dontwarn java.beans.**
+-dontwarn javax.swing.**
+-dontwarn org.kxml2.io.**
+-dontwarn javax.imageio.**
+-dontwarn org.ejml.ops.**
+-dontwarn android.bluetooth.**
+-dontwarn javax.xml.stream.**
+-dontwarn org.openstreetmap.osmosis.**
+-dontwarn com.sun.management.**
+-dontwarn org.apache.avalon.**
+-dontwarn org.apache.log.**
+-dontwarn org.slf4j.impl.**
+-dontwarn org.apache.xmlgraphics.image.**
+-dontwarn com.google.protobuf.**
+-dontwarn org.apache.log4j.**
+-dontwarn org.apache.commons.**
+-dontwarn sun.misc.**
+-dontwarn java.lang.management.**
+-dontwarn android.os.StatFs
+-dontwarn javax.security.**
+-dontwarn org.apache.http.entity.mime.**
+-dontwarn org.xmlpull.**
+-dontwarn org.apache.http.**
+-dontwarn javax.annotation.**
+
+-keep class com.parse.*{ *; }
+-dontwarn com.parse.**
+-dontwarn com.squareup.picasso.**
+-dontwarn com.gryphonet.appright.AppRightJavascriptAPI
+-dontwarn org.apache.cordova.**

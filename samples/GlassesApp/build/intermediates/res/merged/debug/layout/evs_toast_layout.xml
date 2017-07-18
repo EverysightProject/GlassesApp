@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="640px"
+              android:layout_height="480px"
+              android:background="@android:color/transparent"
+              android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/toastContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="140px"
+        android:background="@drawable/evs_custom_toast">
+
+        <ImageView
+            android:id="@+id/toastImage"
+            android:layout_width="35px"
+            android:layout_height="35px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_vertical"
+            android:padding="5px"
+            android:src="@drawable/ic_sms"/>
+
+        <TextView
+            android:id="@+id/toastText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/toastImage"
+            android:padding="5px"
+            android:text="test 1 2 3 4"
+            android:textColor="#6EB34E"
+            android:textSize="35px"/>
+    </LinearLayout>
+
+
+</FrameLayout>
