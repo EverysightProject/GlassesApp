@@ -3,39 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e1e644c7398fd35565c28f8c8c3181687a5fe58e">
-        <dex dex="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bc555964a70a3453f3830cca8836d77e694fa56a\classes.dex" />
+        sha1="b48c0b3889f0f1558fbe6dd71346488c122fe27e">
+        <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1638aaf3bd908807c295f284a0e28ae8a50395e5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9c46eb17d3615d7fa6a38b4346083197cfb2a57d\classes.dex" />
+        <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7dc4eaf9548f0da2dc53102bbcee91491156c2dd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\t-aryehe\.android\build-cache\ae8b5438d4237dae68b09321803ccd9aa4181fde\output\jars\classes.jar"
+        jar="C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a482d965feb59c295eb8a26cd5ec02d6ff91ed4a">
-        <dex dex="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9da8f994e216973d3e09ff6e30a721756cc8e8f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\t-aryehe\Desktop\jovisleetechnion-everysightsamples-ef77ff622a4a\glasses\samples\ActivityExample\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
+        <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2530985db01ddb2910444395a8a4f5905b5c97ef\classes.dex" />
     </item>
 
 </items>
