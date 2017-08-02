@@ -4,8 +4,16 @@
         "source": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\src\\main\\res\\layout\\activity_layout.xml"
     },
     {
+        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\window_container.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\layout\\window_container.xml"
+    },
+    {
         "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\busy_layout.xml",
         "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\layout\\busy_layout.xml"
+    },
+    {
+        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_layout.xml",
+        "source": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\src\\main\\res\\layout\\activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\busy_layout.xml",
@@ -28,8 +36,20 @@
         "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\layout\\vg_base_activity_layout.xml"
     },
     {
+        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\busy_layout.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\layout\\busy_layout.xml"
+    },
+    {
+        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\evs_toast_layout.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\layout\\evs_toast_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\evs_toast_layout.xml",
         "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\layout\\evs_toast_layout.xml"
+    },
+    {
+        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\vg_base_activity_layout.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\layout\\vg_base_activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\layout\\window_container.xml",

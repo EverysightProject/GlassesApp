@@ -3,8 +3,12 @@ package BluetoothConnection;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothServerSocket;
 import android.bluetooth.BluetoothSocket;
+import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
+import android.widget.TextView;
+
+import com.everysight.notifications.EvsToast;
 
 import java.io.IOException;
 import java.util.UUID;
@@ -21,8 +25,10 @@ public class AcceptThread extends Thread {
     private final UUID MY_UUID = new UUID(1,1);
     private BluetoothAdapter mBluetoothAdapter;
     private Handler mHandler;
+    private Context mContext;
 
-    public AcceptThread(Handler handler) {
+    public AcceptThread(Handler handler, Context context) {
+        mContext = context;
         // Use a temporary object that is later assigned to mmServerSocket
         // because mmServerSocket is final.
         BluetoothServerSocket tmp = null;
@@ -77,6 +83,8 @@ public class AcceptThread extends Thread {
     {
         BluetoothCommunicator bc = BluetoothCommunicator.getInstance();
         bc.connect(socket,mHandler);
+        EvsToast.show(mContext,"Bluetooth Connection\nSucceeded");
+
         Log.i(TAG,"Connected");
     }
 }

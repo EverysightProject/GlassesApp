@@ -1,0 +1,7 @@
+#Tue Aug 01 15:21:42 IDT 2017
+base.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2530985db01ddb2910444395a8a4f5905b5c97ef\\classes.dex
+base.1=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2530985db01ddb2910444395a8a4f5905b5c97ef
+file.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\\classes.dex

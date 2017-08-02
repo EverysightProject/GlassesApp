@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import com.everysight.activities.managers.EvsPopupManager;
@@ -14,15 +15,18 @@ import com.everysight.base.EvsContext;
 import com.everysight.notifications.EvsAlertNotification;
 import com.everysight.notifications.EvsNotification;
 import com.everysight.notifications.EvsToast;
+import com.everysight.utilities.EvsTimer;
 
 import BluetoothConnection.AcceptThread;
 import BluetoothConnection.BluetoothHandler;
+import LOS.Los;
 
 public class DirectionsActivity extends EvsBaseActivity
 {
 	private static final String CLICK_INTENT = "com.everysight.sample.click";
 	private static final String TAG = "DirectionsActivity";
 	private static final int REQUEST_ENABLE_BT = 1;
+	private static final int LOGO_SHOW_UP_SCREEN = 4000; //[ms]
 
 	private TextView mCxtCenterLabel = null;
 	//private ImageView mPrevButton = null;
@@ -31,6 +35,13 @@ public class DirectionsActivity extends EvsBaseActivity
 	private EvsPopupManager mPopupManager;
 	private Handler mBThandler;
 	private AcceptThread acceptThread;
+	private EvsTimer logoTimer= null;
+//	private Los los;
+//	private float Yaw;
+//	private EvsTimer mUpdateTimer = null;
+//	private static final int TIMER_PERIOD = 200;
+
+
 
 	public String Direction = "";
 
@@ -39,10 +50,19 @@ public class DirectionsActivity extends EvsBaseActivity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_layout);
+		logoTimer = new EvsTimer(new EvsTimer.IEvsTimerCallback()
+		{
+			@Override
+			public void onTick(long l)
+			{
+				findViewById(R.id.logo).setVisibility(View.INVISIBLE);
+				logoTimer.stop();
+			}
+		},
+				LOGO_SHOW_UP_SCREEN, false);
 
-	//	mCxtCenterLabel = (TextView) this.findViewById(R.id.centerLable);
-	//	mPrevButton = (ImageView) this.findViewById(R.id.prevButton);
-//		mNextButton = (ImageView) this.findViewById(R.id.nextButton);
+		logoTimer.startAfter(LOGO_SHOW_UP_SCREEN);
+
 		//get the evs popup service
 		final EvsPopupManager popupManager = (EvsPopupManager)getEvsContext().getSystemService(EvsContext.POPUP_SERVICE_EVS);
 		//wait for the service to bind
@@ -56,8 +76,8 @@ public class DirectionsActivity extends EvsBaseActivity
 			}
 		});
 
-		mBThandler = new BluetoothHandler(this);
-		acceptThread = new AcceptThread(mBThandler);
+		mBThandler = new BluetoothHandler(this, DirectionsActivity.this);
+		acceptThread = new AcceptThread(mBThandler, DirectionsActivity.this);
 		acceptThread.start();
 	}
 

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\assets"/></dataSet><dataSet config="main"><source path="C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\assets"/><source path="C:\android_work\project\GlassesApp\samples\GlassesApp\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\android_work\project\GlassesApp\samples\GlassesApp\src\debug\assets"/></dataSet></merger>
