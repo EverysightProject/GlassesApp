@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "C:\\Users\\יובל\\.android\\build-cache\\ce60dd15bf242bcff311fb5fc6c2fe7587c3e14e\\output\\res\\values-hdpi\\values-hdpi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 567
+                    }
+                }
+            }
+        ]
+    }
+]

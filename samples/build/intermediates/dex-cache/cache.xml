@@ -3,12 +3,66 @@
 
     <item
         is-multidex="true"
+        jar="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1dce5301fb585630061385c09a300e5ce1cdbbaf">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ca00de10e799a25de97e49aa658b5b3123068a94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b48c0b3889f0f1558fbe6dd71346488c122fe27e">
         <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1638aaf3bd908807c295f284a0e28ae8a50395e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\.android\build-cache\e8b198b7b2d4fc1e2640834cb384610a96a18480\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d21922224681c60a0d50032c0df7750b61e25b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a482d965feb59c295eb8a26cd5ec02d6ff91ed4a">
+        <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2530985db01ddb2910444395a8a4f5905b5c97ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\.android\build-cache\8eaaf1bc1518beafc449d5afe15aae7acfa02c05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c45da25f5de80e0c2551653145bae1b40aa97251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\.android\build-cache\ce60dd15bf242bcff311fb5fc6c2fe7587c3e14e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bbf2ab6eb23c314a486282f3538243d02949f159\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta4_de755a7e997f5bbf342e04991afcd5ac879b5726\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,12 +75,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\jars\classes.jar"
+        jar="C:\Users\יובל\.android\build-cache\26c4afbf06da1d9087e16012dee798cc45e9e872\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a482d965feb59c295eb8a26cd5ec02d6ff91ed4a">
-        <dex dex="C:\android_work\project\GlassesApp\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2530985db01ddb2910444395a8a4f5905b5c97ef\classes.dex" />
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1883a0c991acbdffc3ffeef384258680946a62b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_ba997e87145e4f517be6b30a21ce3173386c0822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_315abbd1127d685464468233ca314e9cf5445059\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\יובל\.android\build-cache\8eaaf1bc1518beafc449d5afe15aae7acfa02c05\output\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\android_work\project\GlassApp2\samples\GlassesApp\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_091e2cc4dfca4cbc8a583b12ab3eec9b05f6d8fc\classes.dex" />
     </item>
 
 </items>

@@ -1,4 +1,4 @@
-#Tue Aug 01 15:21:42 IDT 2017
-base.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+#Mon Sep 04 19:58:05 IDT 2017
+base.0=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
-file.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
+file.0=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

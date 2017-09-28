@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Activity Example</string>
+    <string name="app_name">City Traveler</string>
+    <string name="voice_gesture_msg">Welcome to voice gesture initializer.\n
+                                    Swipe forward for start recording. \n In each screen say the word that you see on the screen after hearing the beep.\n
+                                    In each stage swipe backward for returning to main app screen. </string>
+
 </resources>

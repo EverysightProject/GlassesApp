@@ -27,5 +27,7 @@ repositories {
 
 dependencies {
     compile(name: 'evsBase', ext: 'aar')
-    compile 'com.google.code.gson:gson:2.2.+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
 }

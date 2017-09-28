@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\android_work\project\GlassesApp\samples\GlassesApp\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\android_work\project\GlassApp2\samples\GlassesApp\src\debug\shaders"/></dataSet></merger>

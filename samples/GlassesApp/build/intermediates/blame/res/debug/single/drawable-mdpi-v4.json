@@ -1,98 +1,34 @@
 [
     {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_more_actions_indicator.png",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\popup_more_actions_indicator.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_sms.png",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\ic_sms.png"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_avatar.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\icon_avatar.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\borderedbackground.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\borderedbackground.xml"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_more_actions_indicator.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\popup_more_actions_indicator.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_system_ring.png",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\notification_system_ring.png"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\borderedbackground.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\borderedbackground.xml"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\color.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\color.xml"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\color.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\color.xml"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\controller_selector.xml",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\controller_selector.xml"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png"
     },
     {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_avatar.png",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\icon_avatar.png"
     },
     {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_avatar.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\icon_avatar.png"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\controller_selector.xml",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\controller_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\borderedbackground.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\borderedbackground.xml"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_sms.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\ic_sms.png"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\controller_selector.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\controller_selector.xml"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\color.xml",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\color.xml"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\borderedbackground.xml",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\borderedbackground.xml"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_system_ring.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\notification_system_ring.png"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_sms.png",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\ic_sms.png"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon_avatar.png",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\icon_avatar.png"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_more_actions_indicator.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\popup_more_actions_indicator.png"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\controller_selector.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\controller_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_system_ring.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\notification_system_ring.png"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\popups_loading_indicator_gradient.png"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Desktop\\jovisleetechnion-everysightsamples-ef77ff622a4a\\glasses\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\color.xml",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\ae8b5438d4237dae68b09321803ccd9aa4181fde\\output\\res\\drawable-mdpi-v4\\color.xml"
-    },
-    {
-        "merged": "C:\\Users\\t-aryehe\\Documents\\Everysight\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_sms.png",
-        "source": "C:\\Users\\t-aryehe\\.android\\build-cache\\f4d9fad56eae036b2439733c1233af3ccab8b8d2\\output\\res\\drawable-mdpi-v4\\ic_sms.png"
-    },
-    {
-        "merged": "C:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_system_ring.png",
-        "source": "C:\\Users\\יובל\\.android\\build-cache\\fb44e82c23f6955555a840950633a2a9640c9d71\\output\\res\\drawable-mdpi-v4\\notification_system_ring.png"
+        "merged": "C:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\popup_more_actions_indicator.png",
+        "source": "C:\\Users\\יובל\\.android\\build-cache\\26c4afbf06da1d9087e16012dee798cc45e9e872\\output\\res\\drawable-mdpi-v4\\popup_more_actions_indicator.png"
     }
 ]

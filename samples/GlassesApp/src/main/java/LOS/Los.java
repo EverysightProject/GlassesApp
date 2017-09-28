@@ -106,6 +106,7 @@ public class Los  implements SensorEventListener
     }
 
     public float get360Yaw(){
+//        return (mYaw+180);
         if (mYaw<0){
             return mYaw+360;
         }

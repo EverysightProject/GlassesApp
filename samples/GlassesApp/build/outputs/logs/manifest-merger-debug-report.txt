@@ -1,75 +1,101 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [:evsBase:] C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\AndroidManifest.xml:7:5-9:41
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [:evsBase:] C:\Users\יובל\.android\build-cache\26c4afbf06da1d9087e16012dee798cc45e9e872\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\יובל\.android\build-cache\ce60dd15bf242bcff311fb5fc6c2fe7587c3e14e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\יובל\.android\build-cache\8eaaf1bc1518beafc449d5afe15aae7acfa02c05\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\יובל\.android\build-cache\e8b198b7b2d4fc1e2640834cb384610a96a18480\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
-		INJECTED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
+		INJECTED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:12:5-80
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:12:22-77
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:13:5-73
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:14:5-74
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:13:22-71
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:14:22-71
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:14:22-65
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:18:22-76
 application
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:16:5-29:19
-MERGED from [:evsBase:] C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\AndroidManifest.xml:11:5-14:19
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:20:5-38:19
+MERGED from [:evsBase:] C:\Users\יובל\.android\build-cache\26c4afbf06da1d9087e16012dee798cc45e9e872\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\יובל\.android\build-cache\ce60dd15bf242bcff311fb5fc6c2fe7587c3e14e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\יובל\.android\build-cache\8eaaf1bc1518beafc449d5afe15aae7acfa02c05\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta4] C:\Users\יובל\.android\build-cache\e8b198b7b2d4fc1e2640834cb384610a96a18480\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from [:evsBase:] C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\AndroidManifest.xml:13:9-41
+		ADDED from [:evsBase:] C:\Users\יובל\.android\build-cache\26c4afbf06da1d9087e16012dee798cc45e9e872\output\AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:16:18-54
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:20:18-48
 	android:allowBackup
-		ADDED from [:evsBase:] C:\Users\יובל\.android\build-cache\fb44e82c23f6955555a840950633a2a9640c9d71\output\AndroidManifest.xml:12:9-35
+		ADDED from [:evsBase:] C:\Users\יובל\.android\build-cache\26c4afbf06da1d9087e16012dee798cc45e9e872\output\AndroidManifest.xml:12:9-35
 activity#everysight.Activity.DirectionsActivity
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:18:9-23:20
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:18:19-72
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:21:19-53
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:19:13-22:29
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:25:27-74
 meta-data#app_run_in_bg
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:26:9-73
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:30:9-32:37
 	android:value
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:26:49-70
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:32:13-34
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:26:20-48
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:31:13-41
 meta-data#app_is_vg
-ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:27:9-68
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:33:9-35:36
 	android:value
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:27:45-65
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:35:13-33
 	android:name
-		ADDED from C:\android_work\project\GlassesApp\samples\GlassesApp\src\main\AndroidManifest.xml:27:20-44
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:34:13-37
+activity#everysight.Activity.VoiceGestureInitActivity
+ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:37:9-71
+	android:name
+		ADDED from C:\android_work\project\GlassApp2\samples\GlassesApp\src\main\AndroidManifest.xml:37:19-59

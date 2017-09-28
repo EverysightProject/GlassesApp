@@ -6,12 +6,16 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.os.Handler;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.everysight.notifications.EvsToast;
 
 import java.io.IOException;
 import java.util.UUID;
+
+import everysight.Activity.DirectionsActivity;
+import everysight.Activity.R;
 
 import static com.everysight.base.EvsContext.TAG;
 
@@ -26,9 +30,11 @@ public class AcceptThread extends Thread {
     private BluetoothAdapter mBluetoothAdapter;
     private Handler mHandler;
     private Context mContext;
+    private DirectionsActivity mCaller;
 
-    public AcceptThread(Handler handler, Context context) {
+    public AcceptThread(Handler handler, Context context, DirectionsActivity caller) {
         mContext = context;
+        mCaller = caller;
         // Use a temporary object that is later assigned to mmServerSocket
         // because mmServerSocket is final.
         BluetoothServerSocket tmp = null;
@@ -83,7 +89,16 @@ public class AcceptThread extends Thread {
     {
         BluetoothCommunicator bc = BluetoothCommunicator.getInstance();
         bc.connect(socket,mHandler);
-        EvsToast.show(mContext,"Bluetooth Connection\nSucceeded");
+        EvsToast.show(mContext,"Bluetooth Connected");
+        final ImageView bt_iv = (ImageView)mCaller.findViewById(R.id.bluetoothImg);
+
+
+        mCaller.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                bt_iv.setImageResource(R.drawable.bt_on);
+            }
+        });
 
         Log.i(TAG,"Connected");
     }

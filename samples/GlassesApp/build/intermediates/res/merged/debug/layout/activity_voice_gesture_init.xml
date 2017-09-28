@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@android:color/black">
+
+
+	<TextView
+		android:id="@+id/voiceGestureText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/voice_gesture_msg"
+		android:textAlignment="center"
+		android:textColor="@color/background_floating_material_light" />
+</FrameLayout>

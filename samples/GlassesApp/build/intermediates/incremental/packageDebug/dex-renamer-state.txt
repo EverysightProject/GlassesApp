@@ -1,7 +1,7 @@
-#Wed Aug 02 12:12:11 IDT 2017
-base.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1638aaf3bd908807c295f284a0e28ae8a50395e5
+#Fri Sep 29 00:41:33 IDT 2017
+base.0=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_315abbd1127d685464468233ca314e9cf5445059
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7dc4eaf9548f0da2dc53102bbcee91491156c2dd\\classes.dex
-base.1=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7dc4eaf9548f0da2dc53102bbcee91491156c2dd
-file.0=C\:\\android_work\\project\\GlassesApp\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1638aaf3bd908807c295f284a0e28ae8a50395e5\\classes.dex
+file.1=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ca00de10e799a25de97e49aa658b5b3123068a94\\classes.dex
+base.1=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ca00de10e799a25de97e49aa658b5b3123068a94
+file.0=C\:\\android_work\\project\\GlassApp2\\samples\\GlassesApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_315abbd1127d685464468233ca314e9cf5445059\\classes.dex

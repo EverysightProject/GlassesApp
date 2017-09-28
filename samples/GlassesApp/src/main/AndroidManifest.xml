@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="everysight.Activity"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="22"
@@ -10,22 +10,31 @@
 
     <!-- we need this crap thanks to all our work with files -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <application android:icon="@drawable/ic_launcher">
-
-        <activity android:name="everysight.Activity.DirectionsActivity">
+    <application android:icon="@drawable/shoes">
+        <activity android:name=".DirectionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <!-- let system know we cannot run on the background -->
-        <meta-data android:name="app_run_in_bg" android:value="false" />
-        <meta-data android:name="app_is_vg" android:value="true" />
+        <meta-data
+            android:name="app_run_in_bg"
+            android:value="false" />
+        <meta-data
+            android:name="app_is_vg"
+            android:value="true" />
 
+        <activity android:name=".VoiceGestureInitActivity"></activity>
     </application>
 
 </manifest>
