@@ -66,7 +66,9 @@ public class DirectionsActivity extends EvsBaseActivity
 	private ExtAudioRecorder mRecorder;
 	private WavRecorder wavRecorder;
 	private int featureIndex = 0;
-	private boolean fetOrGest = true;
+	private boolean isWifiOn = false;
+
+	EvsTimer wifiTimer;
 
 
 	@Override
@@ -105,15 +107,32 @@ public class DirectionsActivity extends EvsBaseActivity
 		acceptThread.start();
 
 
-		wavRecorder = new WavRecorder("music/testWav2.wav");
+//		wavRecorder = new WavRecorder("music/testWav2.wav");
 
-		ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
-		NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
 
-		if (mWifi.isConnected()) {
-			ImageView wifi_iv = (ImageView)findViewById(R.id.wifiImg);
-			wifi_iv.setImageResource(R.drawable.wifi_on);
-		}
+
+
+		final ImageView wifi_iv = (ImageView)findViewById(R.id.wifiImg);
+
+		wifiTimer = new EvsTimer(new EvsTimer.IEvsTimerCallback()
+		{
+			@Override
+			public void onTick(long l)
+			{
+				ConnectivityManager connManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+				final NetworkInfo mWifi = connManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+				if (mWifi.isConnected()) {
+					wifi_iv.setImageResource(R.drawable.wifi_on);
+					isWifiOn = true;
+				} else {
+					wifi_iv.setImageResource(R.drawable.wifi_off);
+					isWifiOn = false;
+				}
+				Log.i("wifi timer:", "wifi is " +((isWifiOn)?"on":"off"));
+			}
+		}, 1000, false);
+
+		wifiTimer.start();
 
 	}
 
@@ -155,7 +174,6 @@ public class DirectionsActivity extends EvsBaseActivity
 	public void onUp()
 	{
 		super.onUp();
-		promptSpeechInput();
 //		getSpeechInput();
 //		Intent intent = new Intent(this, VoiceGestureInitActivity.class);
 //		startActivity(intent);
@@ -163,35 +181,7 @@ public class DirectionsActivity extends EvsBaseActivity
 
 	}
 
-	private void recordGesture(final Context ctx, final String feature) {
-
-
-		String msg = feature +" - recordeing started..";
-		wavRecorder.setFilepath("music/"+feature+".wav");
-		wavRecorder.startRecording();
-		final TextView tv = (TextView) findViewById(R.id.Messages);
-		tv.setText("Start Recording!");
-		new CountDownTimer(750, 100) {
-			public void onTick(long millisUntilFinished) {}
-			public void onFinish() {tv.setText("");}
-		}.start();
-
-		new CountDownTimer(1500, 1000) {
-
-			public void onTick(long millisUntilFinished) {}
-
-			public void onFinish() {
-//				mRecorder.stop();
-				wavRecorder.stopRecording();
-				final TextView tv = (TextView) findViewById(R.id.Messages);
-				tv.setText("Stop Recording!");
-				new CountDownTimer(1000, 100) {
-					public void onTick(long millisUntilFinished) {}
-					public void onFinish() {tv.setText("");}
-				}.start();
-			}
-		}.start();
-	}
+//
 
 	/******************************************************************/
 	@Override
@@ -208,56 +198,59 @@ public class DirectionsActivity extends EvsBaseActivity
 		super.onBackward();
 
 		//Initialize all basic voice gestures
-		try{
-			if (fetOrGest){
-				recordGesture(this, "ocr");
-			} else {
-				recordGesture(this, "sample");
-			}
-			fetOrGest = !fetOrGest;
-		} catch (Exception e){
-			e.printStackTrace();
-		}
-
-
-
-
-
+//		try{
+//			if (fetOrGest){
+//				recordGesture(this, "ocr");
+//			} else {
+//				recordGesture(this, "sample");
+//			}
+//			fetOrGest = !fetOrGest;
+//		} catch (Exception e){
+//			e.printStackTrace();
+//		}
 	}
 
-	private float compareVoices(String filePath1, String filePath2) {
-		File file1 = new File(filePath1);
-		File file2 = new File(filePath2);
-		float accurecy = -1;
-		if(file1.exists() && file2.exists()){
-			accurecy = new Compare().match(filePath1, filePath2);
-			EvsToast.show(this,"The accurecy between the two voice gestures is "+ accurecy+"%");
-		} else {
-			EvsToast.show(this,"matching failed");
-		}
-		return accurecy;
-	}
+//	private float compareVoices(String filePath1, String filePath2) {
+//		File file1 = new File(filePath1);
+//		File file2 = new File(filePath2);
+//		float accurecy = -1;
+//		if(file1.exists() && file2.exists()){
+//			accurecy = new Compare().match(filePath1, filePath2);
+//			EvsToast.show(this,"The accurecy between the two voice gestures is "+ accurecy+"%");
+//		} else {
+//			EvsToast.show(this,"matching failed");
+//		}
+//		return accurecy;
+//	}
 
 
 	@Override
 	public void onForward()
 	{
 		super.onForward();
-		String filePath1 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/music/"+"ocr"+".wav";
-		String filePath2 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/music/"+"sample"+".wav";
-		EvsToast.show(this, "comparing \n"+"ocr"+" vs. " +"sample");
-		compareVoices(filePath1, filePath2);
+		promptSpeechInput();
+
+//		String filePath1 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/music/"+"ocr"+".wav";
+//		String filePath2 = Environment.getExternalStorageDirectory().getAbsolutePath()+"/music/"+"sample"+".wav";
+//		EvsToast.show(this, "comparing \n"+"ocr"+" vs. " +"sample");
+//		compareVoices(filePath1, filePath2);
 	}
 
-	public void getSpeechInput() {
+
+	private void promptSpeechInput() {
+		if (!isWifiOn){
+			EvsToast.show(this, "First turn on Glass Wifi!");
+			return;
+		}
 		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+				RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
 		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
-		Context context = this.getApplicationContext();
-		if (intent.resolveActivity(context.getPackageManager()) != null) {
-			startActivityForResult(intent, 10);
-		} else {
-			EvsToast.show(this, "Your Device Don't Support Speech Input");
+		intent.putExtra(RecognizerIntent.EXTRA_PROMPT,"What gesture do you want to use?");
+		try {
+			startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
+		} catch (ActivityNotFoundException a) {
+			a.printStackTrace();
 		}
 	}
 
@@ -266,35 +259,65 @@ public class DirectionsActivity extends EvsBaseActivity
 		super.onActivityResult(requestCode, resultCode, data);
 
 		switch (requestCode) {
-			case 10:
-				if (resultCode == RESULT_OK && data != null) {
-					ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-					EvsToast.show(this, result.get(0));
-				}
-				break;
 			case REQ_CODE_SPEECH_INPUT: {
 				if (resultCode == RESULT_OK && null != data) {
 
 					ArrayList<String> result = data
 							.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-					EvsToast.show(this, result.get(0));
+					decodeVoiceGesture(result.get(0));
 				}
 				break;
 			}
 		}
 	}
 
-	private void promptSpeechInput() {
-		Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-				RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-		intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
-		intent.putExtra(RecognizerIntent.EXTRA_PROMPT,"Say something&#8230;");
-		try {
-			startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
-		} catch (ActivityNotFoundException a) {
-				a.printStackTrace();
+	private void decodeVoiceGesture(String gesture) {
+		switch(gesture){
+			case "camera":
+				EvsToast.show(this, "turn on the camera!");
+				break;
+			case "translate":
+				EvsToast.show(this, "translate me the text!");
+				break;
+			case "video":
+				EvsToast.show(this, "video me!");
+				break;
+			default:
+				EvsToast.show(this, "Didn't find any match, Try again!");
+				break;
 		}
 	}
+
+
+//	private void recordGesture(final Context ctx, final String feature) {
+//
+//
+//		String msg = feature +" - recordeing started..";
+//		wavRecorder.setFilepath("music/"+feature+".wav");
+//		wavRecorder.startRecording();
+//		final TextView tv = (TextView) findViewById(R.id.Messages);
+//		tv.setText("Start Recording!");
+//		new CountDownTimer(750, 100) {
+//			public void onTick(long millisUntilFinished) {}
+//			public void onFinish() {tv.setText("");}
+//		}.start();
+//
+//		new CountDownTimer(1500, 1000) {
+//
+//			public void onTick(long millisUntilFinished) {}
+//
+//			public void onFinish() {
+////				mRecorder.stop();
+//				wavRecorder.stopRecording();
+//				final TextView tv = (TextView) findViewById(R.id.Messages);
+//				tv.setText("Stop Recording!");
+//				new CountDownTimer(1000, 100) {
+//					public void onTick(long millisUntilFinished) {}
+//					public void onFinish() {tv.setText("");}
+//				}.start();
+//			}
+//		}.start();
+//	}
+
 
 }

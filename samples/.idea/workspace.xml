@@ -15,338 +15,49 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdab2376-846a-49ad-b878-55f89c336a02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_beta4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/Compare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/FFT/FFT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/api/ClapApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/api/DetectionApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/api/WhistleApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/dsp/FastFourierTransform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/dsp/LinearInterpolation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/dsp/Resampler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/dsp/WindowFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/experiment/math/cluster/Segment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/experiment/math/cluster/SegmentCluster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/experiment/test/Test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/fingerprint/FingerprintManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/fingerprint/FingerprintSimilarity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/fingerprint/FingerprintSimilarityComputer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/fingerprint/PairManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/quicksort/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/quicksort/QuickSortDouble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/quicksort/QuickSortIndexPreserved.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/quicksort/QuickSortInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/quicksort/QuickSortShort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/rank/ArrayRankDouble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/rank/MapRank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/rank/MapRankDouble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/rank/MapRankInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/rank/MapRankShort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/DataCentroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/MathStatistics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/Mean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/SpectralCentroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/StandardDeviation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/Sum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/math/statistics/ZeroCrossingRate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/pitch/PitchHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/processor/IntensityProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/processor/ProcessorChain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/processor/RobustIntensityProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/processor/TopManyPointsProcessorChain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/properties/FingerprintProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/serialization/ObjectSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/version/Version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/Wave.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/WaveFileManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/WaveHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/WaveTypeDetector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/extension/NormalizedSampleAmplitudes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/extension/Spectrogram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecorder/ExtAudioRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecorder/RecorderThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecorder/VoiceRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecorder/WavRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/AbstractRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/AudioChunk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/AudioRecordConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/MinimumBufferSize.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/OmRecorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/Pcm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/PullTransport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/PullableSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/Recorder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/Source.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/ThreadAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/UiThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/Wav.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/WavHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/WavRecorder/omrecorder/WriteAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/VoiceGestureInitActivity.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageDebug/zip-cache/QQ0mFShG5lp+R2+_WzbQyN4P2Uk=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/QQ0mFShG5lp+R2+_WzbQyN4P2Uk=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2530985db01ddb2910444395a8a4f5905b5c97ef/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1638aaf3bd908807c295f284a0e28ae8a50395e5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7dc4eaf9548f0da2dc53102bbcee91491156c2dd/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/src/main/res/drawable/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$4.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_GlassesApp_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/AcceptThread.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/AcceptThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/BluetoothConnection/BluetoothHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/LOS/Los.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/LOS/Los.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/com/everysight/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$3.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/DirectionsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$raw.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/classes/debug/everysight/Activity/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/AcceptThread.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/AcceptThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/BluetoothConnection/BluetoothHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/LOS/Los.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/LOS/Los.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/com/everysight/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$3.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/DirectionsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$raw.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental-verifier/debug/everysight/Activity/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/dep/dependencies.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_0.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_1.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_2.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_4.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_6.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_8.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/AcceptThread.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/AcceptThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/BluetoothConnection/BluetoothHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/LOS/Los.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/LOS/Los.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/everysight/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$3.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/DirectionsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$raw.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRun/debug/folders/1/5/main/everysight/Activity/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/LOS/Los.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/LOS/Los.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/AcceptThread.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/AcceptThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/BluetoothConnection/BluetoothHandler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$1.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$2.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$3.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/DirectionsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$raw.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$raw.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/everysight/Activity/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$anim.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$attr.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$color.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$dimen.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$drawable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$id.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$layout.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$string.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$style.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$styleable.class" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/everysight/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/outputs/apk/GlassesApp-debug.apk" afterPath="$PROJECT_DIR$/GlassesApp/build/outputs/apk/GlassesApp-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/evsBase_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/evsBase_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/GlassesApp.iml" afterPath="$PROJECT_DIR$/GlassesApp/GlassesApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build.gradle" afterPath="$PROJECT_DIR$/GlassesApp/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/generated/source/buildConfig/androidTest/debug/everysight/activity/test/BuildConfig.java" afterPath="$PROJECT_DIR$/GlassesApp/build/generated/source/buildConfig/androidTest/debug/everysight/activity/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/generated/source/buildConfig/debug/everysight/Activity/BuildConfig.java" afterPath="$PROJECT_DIR$/GlassesApp/build/generated/source/buildConfig/debug/everysight/Activity/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/generated/source/r/debug/com/everysight/R.java" afterPath="$PROJECT_DIR$/GlassesApp/build/generated/source/r/debug/com/everysight/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/generated/source/r/debug/everysight/Activity/R.java" afterPath="$PROJECT_DIR$/GlassesApp/build/generated/source/r/debug/everysight/Activity/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/blame/res/debug/single/raw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/dependencies/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/dependencies/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/manifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_0/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_1/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_1/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_2/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_2/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_3/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_4/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_4/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_5/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_5/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_6/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_6/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_7/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_7/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_8/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_8/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_9/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/instant-run-support/debug/slice_9/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/blink_anim.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/blink_anim.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/busy_anim.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/busy_anim.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/close_main.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/close_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/enter_window_fade_in.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/enter_window_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/exit_window_fade_out.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/exit_window_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_fade_repeat.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_fade_repeat.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_snapshot_repeat.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_snapshot_repeat.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_system_icon_fade_in.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_system_icon_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_system_icon_fade_out.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/notification_system_icon_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/open_next.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/open_next.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/shrink_anim.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/anim/shrink_anim.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/borderedbackground.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/borderedbackground.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/color.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/color.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/controller_selector.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable-mdpi-v4/controller_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/border_debug.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/border_debug.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/border_production.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/border_production.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/evs_custom_toast.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/evs_custom_toast.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/menu_border.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/menu_border.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/menu_border_top.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/menu_border_top.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/popup_action_button_icon_background.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/drawable/popup_action_button_icon_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/activity_layout.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/activity_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/busy_layout.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/busy_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/evs_toast_layout.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/evs_toast_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/vg_base_activity_layout.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/vg_base_activity_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/window_container.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/layout/window_container.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/raw/keep.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/raw/keep.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/GlassesApp/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/GlassesApp/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/AcceptThread.java" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/AcceptThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/BluetoothHandler.java" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/BluetoothHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/java/LOS/Los.java" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/LOS/Los.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java" afterPath="$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/res/layout/activity_layout.xml" afterPath="$PROJECT_DIR$/GlassesApp/src/main/res/layout/activity_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassesApp/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/GlassesApp/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <list id="47a73b9c-53fb-40f2-b5e9-b3ea75159f34" name="Failed commit: Default" comment="added:&#10;- logo screen&#10;- Los" />
     <ignored path="samples.iws" />
@@ -383,11 +94,23 @@
       <file leaf-file-name="DirectionsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="248" selection-end-column="44" />
+            <state relative-caret-position="140">
+              <caret line="122" column="100" selection-start-line="122" selection-start-column="100" selection-end-line="122" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1506640044079" expanded="false" signature="3349:3433" ph="(l) → {" />
+                <marker date="1506640044079" expanded="false" signature="3894:3900" ph="}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvsTimer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.android/build-cache/26c4afbf06da1d9087e16012dee798cc45e9e872/output/jars/classes.jar!/com/everysight/utilities/EvsTimer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="31" column="95" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -420,9 +143,12 @@
       <file leaf-file-name="BluetoothHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/BluetoothHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1604">
-              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="418">
+              <caret line="87" column="41" selection-start-line="67" selection-start-column="39" selection-end-line="87" selection-end-column="41" />
+              <folding>
+                <element signature="e#1905#2087#0" expanded="true" />
+                <element signature="e#2086#2087#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -432,9 +158,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -485,16 +209,6 @@
                 <element signature="e#3094#3246#0" expanded="true" />
                 <element signature="e#3245#3246#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EvsToast.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.android/build-cache/26c4afbf06da1d9087e16012dee798cc45e9e872/output/jars/classes.jar!/com/everysight/notifications/EvsToast.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -3378,7 +3092,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5128866" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33293977" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33293977" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24053451" sideWeight="0.49484536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -3387,11 +3101,12 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22425953" sideWeight="0.5090206" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20504202" sideWeight="0.63779527" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270366" sideWeight="0.48711342" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24983944" sideWeight="0.48885792" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3577332" sideWeight="0.49097937" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3577332" sideWeight="0.49097937" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43982494" sideWeight="0.36220473" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3404,7 +3119,6 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270366" sideWeight="0.48711342" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3564,15 +3278,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java</url>
-          <line>248</line>
+          <line>235</line>
           <properties />
           <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java</url>
-          <line>252</line>
-          <properties />
-          <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/AcceptThread.java</url>
@@ -3582,21 +3290,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java</url>
-          <line>275</line>
+          <line>262</line>
           <properties />
           <option name="timeStamp" value="114" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java</url>
-          <line>157</line>
-          <properties />
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java</url>
-          <line>287</line>
-          <properties />
-          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -3611,13 +3307,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/extension/NormalizedSampleAmplitudes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/VoiceRecognition/wave/extension/Spectrogram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -3933,16 +3622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/DirectionsMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/res/layout/activity_layout.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -3952,14 +3631,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/BluetoothHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1604">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="53" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/AcceptThread.java">
@@ -3994,12 +3665,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/BluetoothHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="87" column="41" selection-start-line="67" selection-start-column="39" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="e#1905#2087#0" expanded="true" />
+            <element signature="e#2086#2087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.android/build-cache/26c4afbf06da1d9087e16012dee798cc45e9e872/output/jars/classes.jar!/com/everysight/utilities/EvsTimer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="95" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/BluetoothConnection/DirectionsMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GlassesApp/src/main/java/everysight/Activity/DirectionsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="248" selection-end-column="44" />
+        <state relative-caret-position="140">
+          <caret line="122" column="100" selection-start-line="122" selection-start-column="100" selection-end-line="122" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1506640044079" expanded="false" signature="3349:3433" ph="(l) → {" />
+            <marker date="1506640044079" expanded="false" signature="3894:3900" ph="}" />
           </folding>
         </state>
       </provider>
